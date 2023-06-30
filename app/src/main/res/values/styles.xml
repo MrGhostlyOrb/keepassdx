@@ -21,9 +21,9 @@
 
     <!-- SplashScreen theme -->
     <style name="KeepassDXStyle.SplashScreen.v21" parent="Theme.MaterialComponents.NoActionBar.Bridge">
-        <item name="colorPrimary">@color/green</item>
-        <item name="colorPrimaryDark">@color/grey_dark</item>
-        <item name="android:windowBackground">@drawable/background_splash</item>
+        <item name="colorPrimary">@android:color/system_accent1_300</item>
+        <item name="colorPrimaryDark">@android:color/system_accent1_300</item>
+        <item name="android:windowBackground">@android:color/system_neutral1_100</item>
     </style>
     <style name="KeepassDXStyle.SplashScreen" parent="KeepassDXStyle.SplashScreen.v21"/>
 
@@ -46,25 +46,25 @@
 
         <item name="android:checkboxStyle">@style/KeepassDXStyle.CheckBox</item>
 
-        <item name="colorPrimary">@color/green</item>
-        <item name="colorPrimaryDark">@color/green_dark</item>
-        <item name="colorAccent">@color/orange</item>
-        <item name="colorAccentLight">@color/orange_lighter</item>
+        <item name="colorPrimary">@android:color/system_accent1_300</item>
+        <item name="colorPrimaryDark">@android:color/system_accent1_600</item>
+        <item name="colorAccent">@android:color/system_accent2_500</item>
+        <item name="colorAccentLight">@android:color/system_accent2_500</item>
 
         <item name="colorControlNormal">@color/grey_lighter</item>
-        <item name="colorControlActivated">@color/orange</item>
+        <item name="colorControlActivated">@android:color/system_accent2_300</item>
 
         <item name="android:textAppearance">@style/KeepassDXStyle.TextAppearance</item>
         <item name="android:textAppearanceMedium">@style/KeepassDXStyle.TextAppearance</item>
 
-        <item name="android:windowBackground">@color/white_dark</item>
+        <item name="android:windowBackground">@android:color/background_light</item>
         <item name="cardBackgroundTransparentColor">#DDFFFFFF</item>
 
         <item name="android:textColor">@color/text_color_light</item>
         <item name="android:textColorLink">@color/text_color_light</item>
         <item name="android:editTextColor">@color/grey_light</item>
         <item name="textColorInverse">@color/white</item>
-        <item name="android:textColorPrimary">@color/green_light</item>
+        <item name="android:textColorPrimary">@android:color/primary_text_light</item>
         <item name="android:textColorPrimaryInverse">@color/white_darkest</item>
         <item name="android:textColorSecondary">@color/text_color_secondary_light</item>
         <item name="android:textColorSecondaryInverse">@color/green_lightest</item>
@@ -98,7 +98,7 @@
         <item name="chipFilterBackgroundColorDisabled">@color/green</item>
 
         <!-- Education Hint -->
-        <item name="educationCircleColor">@color/green_lighter</item>
+        <item name="educationCircleColor">@android:color/system_accent1_300</item>
         <item name="educationTextColor">@color/white</item>
 
         <!-- Edit Text -->
@@ -124,10 +124,10 @@
 
         <item name="android:checkboxStyle">@style/KeepassDXStyle.CheckBox</item>
 
-        <item name="colorPrimary">@color/green</item>
-        <item name="colorPrimaryDark">@color/green_dark</item>
-        <item name="colorAccent">@color/orange</item>
-        <item name="colorAccentLight">@color/orange_lighter</item>
+        <item name="colorPrimary">@android:color/system_accent1_300</item>
+        <item name="colorPrimaryDark">@android:color/system_accent1_600</item>
+        <item name="colorAccent">@android:color/system_accent2_500</item>
+        <item name="colorAccentLight">@android:color/system_accent2_500</item>
 
         <item name="colorControlNormal">@color/grey_lighter</item>
         <item name="colorControlActivated">@color/orange</item>
@@ -135,14 +135,14 @@
         <item name="android:textAppearance">@style/KeepassDXStyle.TextAppearance</item>
         <item name="android:textAppearanceMedium">@style/KeepassDXStyle.TextAppearance</item>
 
-        <item name="android:windowBackground">@color/grey_dark</item>
+        <item name="android:windowBackground">@android:color/background_dark</item>
         <item name="cardBackgroundTransparentColor">@color/grey_dark_transparent</item>
 
         <item name="android:textColor">@color/text_color_night</item>
         <item name="android:textColorLink">@color/text_color_night</item>
         <item name="android:editTextColor">@color/white</item>
         <item name="textColorInverse">@color/white</item>
-        <item name="android:textColorPrimary">@color/green_light</item>
+        <item name="android:textColorPrimary">@android:color/primary_text_dark</item>
         <item name="android:textColorPrimaryInverse">@color/white_darkest</item>
         <item name="android:textColorSecondary">@color/text_color_secondary_night</item>
         <item name="android:textColorSecondaryInverse">@color/green_lightest</item>

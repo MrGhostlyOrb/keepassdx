@@ -19,7 +19,7 @@
 -->
 <resources>
     <style name="KeepassDXStyle.Light.v23" parent="KeepassDXStyle.Light.v21" >
-        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+        <item name="android:statusBarColor">@android:color/system_accent1_600</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
     <style name="KeepassDXStyle.Light.WhiteBar.v23" parent="KeepassDXStyle.Light.WhiteBar.v21" >
