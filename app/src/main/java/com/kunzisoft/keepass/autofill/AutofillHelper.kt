@@ -97,7 +97,7 @@ object AutofillHelper {
         if (remoteViewsIcon != null) {
             try {
                 database.iconDrawableFactory.getBitmapFromIcon(context,
-                        remoteViewsIcon, ContextCompat.getColor(context, R.color.green))?.let { bitmap ->
+                        remoteViewsIcon, ContextCompat.getColor(context, R.color.material_dynamic_primary100))?.let { bitmap ->
                     presentation.setImageViewBitmap(R.id.autofill_entry_icon, bitmap)
                 }
             } catch (e: Exception) {
@@ -218,7 +218,7 @@ object AutofillHelper {
                                    entryInfo: EntryInfo): Icon? {
         try {
             database.iconDrawableFactory.getBitmapFromIcon(context,
-                    entryInfo.icon, ContextCompat.getColor(context, R.color.green))?.let { bitmap ->
+                    entryInfo.icon, ContextCompat.getColor(context, R.color.material_dynamic_primary100))?.let { bitmap ->
                 return Icon.createWithBitmap(bitmap)
             }
         } catch (e: Exception) {

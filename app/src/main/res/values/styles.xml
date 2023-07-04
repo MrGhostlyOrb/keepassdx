@@ -67,9 +67,9 @@
         <item name="android:textColorPrimary">@android:color/primary_text_light</item>
         <item name="android:textColorPrimaryInverse">@color/white_darkest</item>
         <item name="android:textColorSecondary">@color/text_color_secondary_light</item>
-        <item name="android:textColorSecondaryInverse">@color/green_lightest</item>
+        <item name="android:textColorSecondaryInverse">@android:color/system_accent1_100</item>
         <item name="android:textColorHint">@color/grey_lighter</item>
-        <item name="android:textColorHintInverse">@color/green_lightest</item>
+        <item name="android:textColorHintInverse">@android:color/system_accent1_100</item>
 
         <item name="iconPreferenceColor">@color/text_color_secondary_light</item>
 
@@ -94,8 +94,8 @@
 
         <!-- Chip -->
         <item name="chipFilterTextColor">@color/white</item>
-        <item name="chipFilterBackgroundColor">@color/green_light</item>
-        <item name="chipFilterBackgroundColorDisabled">@color/green</item>
+        <item name="chipFilterBackgroundColor">@android:color/system_accent1_100</item>
+        <item name="chipFilterBackgroundColorDisabled">@android:color/system_accent1_300</item>
 
         <!-- Education Hint -->
         <item name="educationCircleColor">@android:color/system_accent1_300</item>
@@ -145,9 +145,9 @@
         <item name="android:textColorPrimary">@android:color/primary_text_dark</item>
         <item name="android:textColorPrimaryInverse">@color/white_darkest</item>
         <item name="android:textColorSecondary">@color/text_color_secondary_night</item>
-        <item name="android:textColorSecondaryInverse">@color/green_lightest</item>
+        <item name="android:textColorSecondaryInverse">@android:color/system_accent1_100</item>
         <item name="android:textColorHint">@color/grey_lighter</item>
-        <item name="android:textColorHintInverse">@color/green_lightest</item>
+        <item name="android:textColorHintInverse">@android:color/system_accent1_100</item>
 
         <item name="iconPreferenceColor">@color/text_color_secondary_night</item>
 
@@ -172,11 +172,11 @@
 
         <!-- Chip -->
         <item name="chipFilterTextColor">@color/white</item>
-        <item name="chipFilterBackgroundColor">@color/green_lighter</item>
-        <item name="chipFilterBackgroundColorDisabled">@color/green</item>
+        <item name="chipFilterBackgroundColor">@android:color/system_accent1_100</item>
+        <item name="chipFilterBackgroundColorDisabled">@android:color/system_accent1_300</item>
 
         <!-- Education Hint -->
-        <item name="educationCircleColor">@color/green_light</item>
+        <item name="educationCircleColor">@android:color/system_accent1_100</item>
         <item name="educationTextColor">@color/white</item>
 
         <!-- Edit Text -->
@@ -196,7 +196,7 @@
         <item name="android:textColorPrimary">@color/white</item>
         <item name="android:textColorSecondary">@color/white</item>
         <item name="android:editTextColor">@color/white</item>
-        <item name="android:textColorHint">@color/green_lightest</item>
+        <item name="android:textColorHint">@android:color/system_accent1_100</item>
         <item name="android:tint">@color/white</item>
     </style>
     <style name="KeepassDXStyle.Toolbar.Night" parent="KeepassDXStyle.Night.v21">
@@ -204,7 +204,7 @@
         <item name="android:textColorPrimary">@color/white</item>
         <item name="android:textColorSecondary">@color/white</item>
         <item name="android:editTextColor">@color/white</item>
-        <item name="android:textColorHint">@color/green_lightest</item>
+        <item name="android:textColorHint">@android:color/system_accent1_100</item>
         <item name="android:tint">@color/white</item>
     </style>
 
@@ -231,7 +231,7 @@
         <item name="subtitleTextAppearance">@style/KeepassDXStyle.TextAppearance.Toolbar.Special.SubTitle</item>
     </style>
     <style name="KeepassDXStyle.Toolbar.Widget.Special.Green" parent="KeepassDXStyle.Toolbar.Widget.Special">
-        <item name="android:background">@color/green_dark</item>
+        <item name="android:background">@android:color/system_accent1_600</item>
     </style>
     <style name="KeepassDXStyle.TextAppearance.Toolbar.Special.Title" parent="KeepassDXStyle.TextAppearance.Small">
         <item name="android:textColor">?android:attr/textColorHintInverse</item>
@@ -248,7 +248,7 @@
         <item name="toolbarStyle">@style/KeepassDXStyle.Toolbar.Widget.Action.Green</item>
     </style>
     <style name="KeepassDXStyle.Toolbar.Widget.Action.Green" parent="Widget.MaterialComponents.Toolbar">
-        <item name="android:background">@color/green</item>
+        <item name="android:background">@android:color/system_accent1_300</item>
     </style>
 
     <!-- CollapsingToolbarLayout -->
@@ -308,24 +308,24 @@
     <!-- Dialog -->
     <style name="KeepassDXStyle.Light.Dialog" parent="Theme.MaterialComponents.Light.Dialog.Alert.Bridge">
         <item name="colorAccent">@color/orange</item>
-        <item name="android:textColorPrimary">@color/green</item>
+        <item name="android:textColorPrimary">@android:color/system_accent1_300</item>
         <item name="background">@color/white_dark</item>
         <item name="android:windowSoftInputMode">adjustResize</item>
     </style>
     <style name="KeepassDXStyle.Night.Dialog" parent="Theme.MaterialComponents.Dialog.Alert.Bridge">
         <item name="colorAccent">@color/orange</item>
-        <item name="android:textColorPrimary">@color/green</item>
+        <item name="android:textColorPrimary">@android:color/system_accent1_300</item>
         <item name="background">@color/grey_dark</item>
         <item name="android:windowSoftInputMode">adjustResize</item>
     </style>
     <style name="KeepassDXStyle.Light.DateTime.Dialog" parent="Theme.MaterialComponents.Light.Dialog.Bridge">
         <item name="colorAccent">@color/orange</item>
-        <item name="android:textColorPrimary">@color/green_dark</item>
+        <item name="android:textColorPrimary">@android:color/system_accent1_600</item>
         <item name="android:windowBackground">@color/white_dark</item>
     </style>
     <style name="KeepassDXStyle.Night.DateTime.Dialog" parent="Theme.MaterialComponents.Dialog.Bridge">
         <item name="colorAccent">@color/orange_darker</item>
-        <item name="android:textColorPrimary">@color/green_light</item>
+        <item name="android:textColorPrimary">@android:color/system_accent1_100</item>
         <item name="android:windowBackground">@color/grey_dark</item>
     </style>
 

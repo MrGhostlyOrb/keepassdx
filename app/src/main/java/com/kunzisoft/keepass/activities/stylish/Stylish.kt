@@ -113,8 +113,8 @@ object Stylish {
     fun getThemeId(context: Context): Int {
         return when (retrieveEquivalentSystemStyle(context, themeString ?: context.getString(R.string.list_style_name_light))) {
             context.getString(R.string.list_style_name_night) -> R.style.KeepassDXStyle_Night
-            context.getString(R.string.list_style_name_white) -> R.style.KeepassDXStyle_White
-            context.getString(R.string.list_style_name_black) -> R.style.KeepassDXStyle_Black
+            context.getString(R.string.list_style_name_white) -> R.style.KeepassDXStyle_Blue
+            context.getString(R.string.list_style_name_black) -> R.style.KeepassDXStyle_Blue
             context.getString(R.string.list_style_name_clear) -> R.style.KeepassDXStyle_Clear
             context.getString(R.string.list_style_name_dark) -> R.style.KeepassDXStyle_Dark
             context.getString(R.string.list_style_name_simple) -> R.style.KeepassDXStyle_Simple
