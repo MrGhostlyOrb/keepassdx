@@ -1,18 +1,16 @@
-# Android KeePassDX
+# Material You KeePassDX
 
-<img src="https://raw.githubusercontent.com/Kunzisoft/KeePassDX/master/art/icon.png"> **Lightweight password manager for Android**, KeePassDX allows editing encrypted data in a single file in KeePass format and fill in the forms in a secure way.
-
-<img src="https://raw.githubusercontent.com/Kunzisoft/KeePassDX/master/art/screen.jpg" width="220">
+**Lightweight password manager**, KeePassDX allows editing encrypted data in a single file in KeePass format and fills in the forms in a secure way.
 
 ### Features
 
- - Create database files / entries and groups.
+ - Create database files/entries and groups.
  - Support for **.kdb** and **.kdbx** files (version 1 to 4) with AES - Twofish - ChaCha20 - Argon2 algorithm.
  - **Compatible** with the majority of alternative programs (KeePass, KeePassXC, KeeWeb, …).
  - Allows opening and **copying URI / URL fields quickly**.
  - **Biometric recognition** for fast unlocking *(fingerprint / face unlock / …)*.
  - **One-Time Password** management *(HOTP / TOTP)* for Two-factor authentication (2FA).
- - Material design with **themes**.
+ - Material You design.
  - **Auto-Fill** and Integration.
  - Field filling **keyboard**.
  - Dynamic **templates** 
@@ -24,9 +22,9 @@ KeePassDX is **open source** and **ad-free**.
 
 ## What is KeePassDX?
 
-An alternative to remembering an endless list of passwords manually. This is made more difficult by **using different passwords for each account**. If you use one password everywhere and security fails only one of those places, it grants access to your e-mail account, website, etc, and you may not know about it or notice, before bad things happen.
+An alternative to remembering an endless list of passwords manually. This is made more difficult by **using different passwords for each account**.
 
-KeePassDX is a **password manager for Android**, which helps you **manage your passwords in a secure way**. You can put all your passwords in one database, locked with a **master key** and/or a **keyfile**. You **only have to remember one single master password and/or select the keyfile** to unlock the whole database. The databases are encrypted using the best and **most secure encryption algorithms** currently known.
+KeePassDX is a **password manager**, which helps you **manage your passwords**. You can put all your passwords in one database, locked with a **master key** and/or a **keyfile**. You **only have to remember one master password or select the keyfile** to unlock the database.
 
 ## Small print?
 
@@ -36,8 +34,7 @@ There is **no advertising**.
 
 Do not worry, **the main features remain completely free**.
 
-Optional visual styles are accessible after a contribution (and a congratulatory message (Ո‿Ո) ) or the purchase of an extended version to encourage contribution to the work of open source projects!
-*If you contribute to the project and do not have access to the styles, do not hesitate to contact the author at [contact@kunzisoft.com](contact@kunzisoft.com).*
+*You can contribute to the project and do not hesitate to contact the author at [contact@kunzisoft.com](contact@kunzisoft.com).*
 
 ## Contributions
 
@@ -48,17 +45,9 @@ Optional visual styles are accessible after a contribution (and a congratulatory
 
 ## Download
 
-*[F-Droid](https://f-droid.org/en/packages/com.kunzisoft.keepass.libre/) is the recommended way of installing, a libre software project that verifies that all the libraries and app code is libre software.*
-
-[<img src="https://f-droid.org/badge/get-it-on.png"
-      alt="Get it on F-Droid"
-      height="80">](https://f-droid.org/en/packages/com.kunzisoft.keepass.libre/)
-[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
-      alt="Get it on Google Play"
-	height="80">](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
 [<img src="https://raw.githubusercontent.com/Kunzisoft/Github-badge/main/get-it-on-github.png"
       alt="Get it on Github"
-	height="80">](https://github.com/Kunzisoft/KeePassDX/releases)
+	height="80">](https://github.com/MrGhostlyOrb/keepassdx/releases)
 	
 ## Frequently Asked Questions
 
@@ -92,3 +81,4 @@ Other questions? You can read the [FAQ](https://github.com/Kunzisoft/KeePassDX/w
   along with KeePassDX.  If not, see <http://www.gnu.org/licenses/>.
   
   *This project is a fork of [KeePassDroid](https://github.com/bpellin/keepassdroid) by bpellin.*
+  *This project is a fork of [KeePassDX](https://github.com/Kunzisoft/KeePassDX) by Kunzisoft.*
