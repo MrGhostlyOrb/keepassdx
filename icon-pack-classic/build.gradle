@@ -10,4 +10,5 @@ android {
     }
 
     resourcePrefix 'classic_'
+    namespace 'com.kunzisoft.keepass.icon.classic'
 }

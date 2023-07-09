@@ -10,4 +10,5 @@ android {
     }
 
     resourcePrefix 'material_'
+    namespace 'com.kunzisoft.keepass.icon.material'
 }
