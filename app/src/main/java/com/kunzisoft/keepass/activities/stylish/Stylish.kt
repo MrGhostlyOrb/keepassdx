@@ -113,20 +113,6 @@ object Stylish {
     fun getThemeId(context: Context): Int {
         return when (retrieveEquivalentSystemStyle(context, themeString ?: context.getString(R.string.list_style_name_light))) {
             context.getString(R.string.list_style_name_night) -> R.style.KeepassDXStyle_Night
-            context.getString(R.string.list_style_name_white) -> R.style.KeepassDXStyle_Blue
-            context.getString(R.string.list_style_name_black) -> R.style.KeepassDXStyle_Blue
-            context.getString(R.string.list_style_name_clear) -> R.style.KeepassDXStyle_Clear
-            context.getString(R.string.list_style_name_dark) -> R.style.KeepassDXStyle_Dark
-            context.getString(R.string.list_style_name_simple) -> R.style.KeepassDXStyle_Simple
-            context.getString(R.string.list_style_name_simple_night) -> R.style.KeepassDXStyle_Simple_Night
-            context.getString(R.string.list_style_name_blue) -> R.style.KeepassDXStyle_Blue
-            context.getString(R.string.list_style_name_blue_night) -> R.style.KeepassDXStyle_Blue_Night
-            context.getString(R.string.list_style_name_red) -> R.style.KeepassDXStyle_Red
-            context.getString(R.string.list_style_name_red_night) -> R.style.KeepassDXStyle_Red_Night
-            context.getString(R.string.list_style_name_reply) -> R.style.KeepassDXStyle_Reply
-            context.getString(R.string.list_style_name_reply_night) -> R.style.KeepassDXStyle_Reply_Night
-            context.getString(R.string.list_style_name_purple) -> R.style.KeepassDXStyle_Purple
-            context.getString(R.string.list_style_name_purple_dark) -> R.style.KeepassDXStyle_Purple_Dark
             else -> R.style.KeepassDXStyle_Light
         }
     }

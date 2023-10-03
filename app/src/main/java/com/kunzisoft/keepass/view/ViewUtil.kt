@@ -124,15 +124,15 @@ fun View.collapse(animate: Boolean = true,
         play(slideAnimator)
         interpolator = AccelerateDecelerateInterpolator()
         addListener(object: Animator.AnimatorListener {
-            override fun onAnimationStart(animation: Animator?) {
+            override fun onAnimationStart(p0: Animator) {
             }
-            override fun onAnimationRepeat(animation: Animator?) {}
-            override fun onAnimationEnd(animation: Animator?) {
+            override fun onAnimationRepeat(p0: Animator) {}
+            override fun onAnimationEnd(p0: Animator) {
                 visibility = View.GONE
                 layoutParams.height = recordViewHeight
                 onCollapseFinished?.invoke()
             }
-            override fun onAnimationCancel(animation: Animator?) {}
+            override fun onAnimationCancel(p0: Animator) {}
         })
     }.start()
 }
@@ -158,12 +158,12 @@ fun View.expand(animate: Boolean = true,
         play(slideAnimator)
         interpolator = AccelerateDecelerateInterpolator()
         addListener(object: Animator.AnimatorListener {
-            override fun onAnimationStart(animation: Animator?) {}
-            override fun onAnimationRepeat(animation: Animator?) {}
-            override fun onAnimationEnd(animation: Animator?) {
+            override fun onAnimationStart(p0: Animator) {}
+            override fun onAnimationRepeat(p0: Animator) {}
+            override fun onAnimationEnd(p0: Animator) {
                 onExpandFinished?.invoke()
             }
-            override fun onAnimationCancel(animation: Animator?) {}
+            override fun onAnimationCancel(p0: Animator) {}
         })
     }.start()
 }
@@ -193,12 +193,12 @@ fun View.hideByFading() {
             .alpha(0f)
             .setDuration(140)
             .setListener(object: Animator.AnimatorListener {
-                override fun onAnimationStart(p0: Animator?) {}
-                override fun onAnimationEnd(p0: Animator?) {
+                override fun onAnimationStart(p0: Animator) {}
+                override fun onAnimationEnd(p0: Animator) {
                     isVisible = false
                 }
-                override fun onAnimationCancel(p0: Animator?) {}
-                override fun onAnimationRepeat(p0: Animator?) {}
+                override fun onAnimationCancel(p0: Animator) {}
+                override fun onAnimationRepeat(p0: Animator) {}
             })
 }
 
